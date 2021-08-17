@@ -6,12 +6,6 @@ public class Program
     {
         ImprimeItensCozinha();
     }
-
-    public static void ImprimeItem(string item)
-    {
-        Console.WriteLine($"{item}");
-    }
-
     public static void ImprimeItensCozinha()
     {
         string[] itens = {"Fogão", "Pia", "Geladeira"};
